@@ -41,7 +41,7 @@ export class LoginComponent {
         };
 
         // Redirect the user
-        this.router.navigate([redirect], navigationExtras);
+        this.router.navigate([redirect]);
       }
     });
   }

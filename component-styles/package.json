@@ -4,12 +4,12 @@
   "private": true,
   "description": "Example project from an angular.io guide.",
   "scripts": {
+    "ng": "ng",
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "start": "ng serve --port 4900",
+    "start": "ng serve",
     "test": "ng test",
     "build": "ng build --prod",
-    "e2e": "ng e2e",
-    "ng": "ng"
+    "e2e": "ng e2e"
   },
   "keywords": [],
   "author": "",
